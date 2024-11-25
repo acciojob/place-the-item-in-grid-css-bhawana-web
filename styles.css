@@ -1,17 +1,2 @@
 
 /* Your CSS Code here. */
-.holder {
-  display: grid;                  /* Establishes grid layout */
-  grid-template-rows: repeat(2, 100px);  /* Creates two equal rows */
-  grid-template-columns: repeat(2, 100px); /* Creates two equal columns */
-  width: 200px;                   /* Set the total width */
-  height: 200px;                  /* Set the total height */
-}
-
-.item {
-  background-color: lightgray;    /* Just to differentiate the items */
-  display: flex;                  /* Optionally use flex to center content */
-  justify-content: center;        /* Center horizontally */
-  align-items: center;            /* Center vertically */
-  border: 1px solid #ccc;         /* Border to visualize the items */
-}
