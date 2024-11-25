@@ -1,2 +1,24 @@
 
 /* Your CSS Code here. */
+/* Grid container styling */
+.holder {
+    display: grid;                          /* Enable CSS grid */
+    grid-template-columns: repeat(2, 1fr);   /* Create 2 equal-width columns */
+    grid-template-rows: repeat(2, 1fr);      /* Create 2 equal-height rows */
+    width: 200px;                            /* Total size of the grid */
+    height: 200px;                           /* Total height of the grid */
+    gap: 10px;                               /* Optional: gap between items */
+}
+
+/* Styling for grid items */
+.item {
+    background-color: #4CAF50;  /* Background color for items */
+    color: white;               /* Text color */
+    display: flex;              /* Center text within items */
+    justify-content: center;    /* Horizontally center content */
+    align-items: center;        /* Vertically center content */
+    padding: 10px;              /* Padding inside each item */
+    font-size: 16px;            /* Font size */
+    text-align: center;         /* Text alignment */
+    border-radius: 5px;         /* Slight rounding of corners */
+}
